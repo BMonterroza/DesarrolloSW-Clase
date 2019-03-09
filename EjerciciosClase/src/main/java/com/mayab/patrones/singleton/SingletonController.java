@@ -1,6 +1,6 @@
 package com.mayab.patrones.singleton;
 
-public class ControllerUsuario {
+public class SingletonController {
 
 	public static void main(String[] args) {
 		Usuario usuario1 = Usuario.getInstance();
