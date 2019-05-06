@@ -3,7 +3,7 @@ package com.mayab.patrones.strategy;
 import java.util.ArrayList;
 
 public class CuentaBanco {
-	private ArrayList<Transaction> transacciones;
+	private ArrayList<Transaction> transacciones = new ArrayList<Transaction>();
 	private SortBehaviour tool;
 	private double caja;
 	public void addTransaction(Transaction transaccion) {

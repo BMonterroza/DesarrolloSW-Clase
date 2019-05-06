@@ -13,14 +13,15 @@ public class SortFecha implements SortBehaviour{
 			if(index == 0) {
 				answer.add(transaction);
 			}else {
-				if(answer.get(index-1).getFecha().compareTo(transaction.getFecha()) >0 ) {
+				/*if(answer.get(index-1).getFecha().compareTo(transaction.getFecha()) > 0 ) {
 					answer.add(index, transaction);
 				}
 				else if(answer.get(index-1).getFecha().compareTo(transaction.getFecha()) < 0 ) {
 					answer.add(index-1, transaction);
 				} else {
 					answer.add(index, transaction);
-				}
+				} */
+				answer.add(index, transaction);
 			}
 			index++;
 		}

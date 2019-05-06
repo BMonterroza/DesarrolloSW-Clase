@@ -21,7 +21,10 @@ public class StrategyController {
 		t1.setSuma(100);
 		prueba.addTransaction(t1);
 		prueba.addTransaction(t2);
-		prueba.ordenar("fecha");
+		System.out.println("Sort por cantidad:");
+		prueba.ordenar("cantidad");
+		System.out.println("Sort por categoria:");
+		prueba.ordenar("categoria");
 	}
 
 }
