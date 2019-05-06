@@ -1,8 +1,10 @@
 package com.mayab.patrones.strategy;
 
+import java.util.*;
+
 public class Transaction {
 	private String categoria;
-	private String fecha;
+	private Date fecha;
 	private double suma; 
     private String negocio;
 	public String getCategoria() {
@@ -11,10 +13,10 @@ public class Transaction {
 	public void setCategoria(String categoria) {
 		this.categoria = categoria;
 	}
-	public String getFecha() {
+	public Date getFecha() {
 		return fecha;
 	}
-	public void setFecha(String fecha) {
+	public void setFecha(Date fecha) {
 		this.fecha = fecha;
 	}
 	public double getSuma() {

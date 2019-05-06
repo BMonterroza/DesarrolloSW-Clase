@@ -2,7 +2,7 @@ package com.mayab.patrones.adapter;
 
 public class PersonaAdapter implements PersonaVieja {
 
-	PersonaNueva persona;
+	private PersonaNueva persona;
 	
 	public PersonaAdapter(PersonaNueva persona) {
 		this.persona = persona;
